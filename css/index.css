@@ -1,0 +1,57 @@
+.header-cmc{
+	height: 70vh;
+	background-color: blue;
+	 margin-top: -65px;
+	 background-image: url("../img/header.jpg");
+	     background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+}
+.nav-cmc{
+	background-color: transparent !important;
+
+}
+.hdr-detl-cmc{
+	margin-top: 30%;
+	color: white;
+	font-weight: 300;
+}
+.sec-1-cmc{
+	height: 300px;
+	background-color: red;
+}
+.sec-2-cmc{
+	height: 370px;
+	background-color: blue;
+}
+.sec-1-box-last-cmc{
+	height: 36px;
+
+}
+.sec-1-box-1-cmc{
+	height: 70px;
+	background-color: white;
+}
+.box-mr-cmc{
+	margin-right: 2%;
+}
+.sec-1-box-2-cmc{
+	height: 145px;
+	background-color: red;
+}
+.inr-sec-cmc{
+	background-color: white;
+}
+.str-cmc{
+	border:solid 2px black;
+	background-color: white;
+	border-radius: 5px;
+}
+.str-p-cmc{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.stat-cmc{
+	height: 300px;
+	background-color: Ed3456;
+}
