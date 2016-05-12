@@ -247,3 +247,33 @@ blockquote {
 	        margin-left: -3px;
 	    border: 0px solid transparent !important;
 }
+
+/*  test css starts ----------------------------*/
+.qstn-cmc{
+	height: 100vh;
+}
+.sub-btn-cmc{
+	padding-top: 10%;
+}
+.btn4-ins-cmc{
+	padding: 6px 35px !important;
+}
+.btn6-ins-cmc{
+	padding: 6px  11px !important;
+}
+.btn1-ins-cmc{
+	padding: 6px  24px !important;
+}
+.btn2-ins-cmc{
+	padding: 6px  19px !important;
+}
+.btn7-ins-cmc{
+	margin-top: 22% !important;
+}
+.qr-circle-cmc{
+	height: 28px ;
+	width:  28px ;
+	border-radius: 14px;
+	background-color: red;
+	margin-right: 5%;
+}
