@@ -352,3 +352,9 @@ blockquote {
 		margin-left: -6%;
 	}
 }
+/*  index css starts ----------------------------*/
+.bck-ind-img-cmc{
+	background-image: url("../img/college-student.jpg");
+	background-position-x: 68%;
+    background-size: cover;
+}
