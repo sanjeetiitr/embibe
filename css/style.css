@@ -204,14 +204,6 @@ blockquote {
 	margin-top: -6%;
 	z-index: 0;
 }
-.mb-sty-cmc{
-	padding :1%;
-	border-bottom: 2px solid white;
-	    cursor: pointer;
-}
-.mb-sty-cmc:hover {
-	border-bottom: 2px solid red;
-}
 .mb-bx-cmc{
 	height: 200px;
 	background-color: orange;
@@ -357,4 +349,102 @@ blockquote {
 	background-image: url("../img/college-student.jpg");
 	background-position-x: 68%;
     background-size: cover;
+}
+/*  ask css starts ----------------------------*/
+.form-control-ask-cmc{
+	    height: 52px !important;
+}
+.btn-ask-cmc{
+	    padding: 15px 38px !important;
+}
+.rec-box-1-ask-cmc{
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border-left: 5px solid red;
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+}
+.right-box-ask-cmc{
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+	background-color: white;
+	margin-top: 9%;
+}
+.dd-btn2-ask-cmc{
+		    padding: 15px 88px !important;
+	    border-radius:0px !important ;
+	    border: 0px solid transparent !important;
+}
+.dropdown-menu-ask-cmc{
+	min-width: 100% !important;
+}
+.main-headr-cmc{
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+	background-color:white;
+}
+.right-box-ask-cmc h5{
+	font-weight: 300;
+}
+@media (max-width:992px){
+.srch-box-ask-cmc{
+	margin-left : 15% !important;
+}.dd-btn2-ask-cmc
+{
+	    padding: 15px 215px !important;
+}
+.ftr-news-cmc{
+	float: left;
+	margin-left: -33%;
+
+}
+}
+
+.srch-box-ask-cmc{
+	height: 50px;margin-top: 3%;margin-left: 29%;
+}
+.head-ask-cmc{
+	margin-top: 21%;color: white;font-weight: lighter;
+}
+.ftr-news-cmc h5{
+	font-weight: 300;
+}
+.ftr-logo-cmc{
+    height:200px;
+    background-image: url("../img/logo-c.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+        height: 30px;
+    max-width: 38%;
+    margin-left: 5%;
+}
+.ftr-scl-1-cmc{
+    height:30px;
+    background-image: url("../img/fb.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ftr-scl-2-cmc{
+    height:30px;
+    background-image: url("../img/twitter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ftr-scl-3-cmc{
+    height:30px;
+    background-image: url("../img/yt.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.mb-sty-cmc{
+	padding :1%;
+	border-bottom: 4px solid white;
+	    cursor: pointer;
+}
+.mb-sty-cmc:hover {
+	border-bottom: 4px solid red;
+}
+.mb-sty-active-cmc{
+		padding :1%;
+	border-bottom: 4px solid red;
+	    cursor: pointer;
 }
