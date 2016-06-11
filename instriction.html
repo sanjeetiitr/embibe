@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Instruction</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body style="background-color:white">
+  <section>
+    <div class="col-lg-12 bar-inst-cmc">
+      <div class="col-lg-2">Logo</div>
+      <div class="col-lg-10"></div>
+    </div>
+  </section>
+  <section class="container">
+  <div class="col-lg-8 col-lg-offset-2 inst-head-cmc">
+    
+  </div>
+  </section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+        // on scroll, 
+        $(window).on('scroll',function(){
+
+            // we round here to reduce a little workload
+            var stop = Math.round($(window).scrollTop());
+
+            if (stop > 50) {
+                $('.topnav').addClass('nav-othr-cmc');
+            } else {
+                $('.topnav').removeClass('nav-othr-cmc');
+            }
+
+        });
+    </script>
+    <!--script type="text/javascript">
+      $(document).ready(function(){
+   $('meta[name="viewport"]').prop('content', 'width=1280');
+   $('#signup').click();
+});
+    </script-->
+  </body>
+</html>
